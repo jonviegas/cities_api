@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: ALWAYS
+    include-stacktrace: ON_PARAM
+    include-binding-errors: ALWAYS
+    include-exception: false
+
+spring:
+  datasource:
+    url: ${API_DATABASE}
+    username: ${API_USER}
+    password: ${API_PASSWORD}
+  data:
+    web:
+      pageable:
+        max-page-size: 50
