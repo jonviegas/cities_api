@@ -1,4 +1,4 @@
-# :earth_americas: Brazilian Cities API
+# :earth_americas: Cities API
 - - -
 ## :book: Introduction
 This **REST API** provides a search and navigation system for information related to countries and locations in Brazil. In addition, it also provides the functionality of calculating the distance between two locations by their geographic points.
