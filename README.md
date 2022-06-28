@@ -38,7 +38,7 @@ Records added to the database can be found [here](https://github.com/chinnonsant
 
 - ### **Find Cities By State**
   ```/cities/search/{stateUf}```
-    Search and returns all cities belonging to the state
+    Search and returns all cities belonging to the current state
 
 - ### **Pagination**
   By default, queries related to **"search"** and **"find all"** return up to 20 records found.
